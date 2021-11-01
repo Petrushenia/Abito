@@ -1,0 +1,22 @@
+.header {
+  max-width: 1146px;
+  margin: auto;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar-menu {
+  margin-right: auto;
+}
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding-left: 22px;
+  padding-right: 22px;
+}
+.menu-item:not(:last-child) {
+  margin-right: 14px;
+}
