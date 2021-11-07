@@ -3,7 +3,7 @@ body {
   font-size: 14px;
   color: #0A143A;
 }
-.conteiner {
+.container {
   max-width: 1146px;
   margin: auto;
 }
@@ -174,4 +174,29 @@ body {
   line-height: 14px;
   color: inherit;
   text-decoration: none;
+}
+.search-new {
+  margin-top: 20px;
+  display: flex;
+  background-color: #256EEB;
+  padding: 3px;
+  border-radius: 5px;
+  height: 50px;
+}
+.search-l {
+  flex-grow: 1;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.button-s {
+  display: flex;
+  align-items: center;
+  background-color: #256EEB;
+  border: none;
+  padding-right: 17px;
+  padding-left: 20px;
+  color: #fff;
 }
