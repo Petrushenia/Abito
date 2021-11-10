@@ -1,6 +1,6 @@
 var swiper = new Swiper(".mySwiper", {
         spaceBetween: 10,
-        slidesPerView: 6,
+        slidesPerView: 4,
         freeMode: true,
         watchSlidesProgress: true,
       });
@@ -15,7 +15,7 @@ var swiper = new Swiper(".mySwiper", {
       const menuCloseBtn = document.querySelector(".close-menu");
       menuBtn.addEventListener("click", () => {
         menu.classList.toggle("is-open");
-      })
+      });
       menuCloseBtn.addEventListener("click", () => {
         menu.classList.toggle("is-open");
-      })
+      });
